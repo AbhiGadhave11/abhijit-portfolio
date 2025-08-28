@@ -1,11 +1,18 @@
 "use client";
 import Section from "./Section";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import personaai  from "@/app/public/Images/Project/persona-ai_resized.png"
 import portfolio from "@/app/public/Images/Project/portfolio_resized.png"
 import courseRegi from "@/app/public/Images/Project/project3.png"
 import pythonScript from "@/app/public/Images/Project/project2.png"
+
+type Project = {
+  title: string,
+  description: string,
+  image: string, 
+  link: string,
+};
 
 const projects = [
   {
@@ -38,7 +45,7 @@ const projects = [
   },
 ];
 
-const cardVariants = {
+const cardVariants: Variants = {
   hidden: { opacity: 0, y: 40, scale: 0.95 },
   visible: (i: number) => ({
     opacity: 1,
@@ -47,7 +54,7 @@ const cardVariants = {
     transition: {
       duration: 0.6,
       delay: i * 0.15,
-      ease: "easeOut",
+      ease: [0.42, 0, 0.58, 1], // cubic-bezier
     },
   }),
 };
@@ -56,7 +63,7 @@ export default function Projects() {
   return (
     <Section id="projects" title="Projects" eyebrow="WORK">
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {projects.map((project, i) => (
+        {projects.map((project: Project, i) => (
           <motion.a
             key={i}
             href={project.link}

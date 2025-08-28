@@ -1,5 +1,5 @@
 'use client'
-import { motion } from 'framer-motion'
+import { motion, Transition, Variants } from 'framer-motion'
 import { ReactNode } from 'react'
 
 type SectionProps = {
@@ -9,7 +9,7 @@ type SectionProps = {
   children: ReactNode
 }
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: {
     opacity: 1,
@@ -17,10 +17,11 @@ const containerVariants = {
     transition: {
       staggerChildren: 0.15,
       duration: 0.6,
-      ease: [0.4, 0, 0.2, 1],
+      ease: [0.4, 0, 0.2, 1] as Transition["ease"],
     },
   },
-}
+};
+
 
 const childVariants = {
   hidden: { opacity: 0, y: 20, scale: 0.98 },
@@ -28,7 +29,10 @@ const childVariants = {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { duration: 0.5, ease: [0.4, 0, 0.2, 1] },
+    transition: { 
+      duration: 0.5, 
+      ease: [0.4, 0, 0.2, 1] as Transition["ease"]
+    },
   },
 }
 
