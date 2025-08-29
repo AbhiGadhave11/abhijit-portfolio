@@ -5,8 +5,8 @@ import Projects from '@/app/components/Projects'
 import Education from '@/app/components/Education'
 import Contact from '@/app/components/Contact'
 import Section from '@/app/components/Section'
-import myImage from "./public/Images/Profile/myimage3.jpg";
 import Blog from './components/Blog'
+import Image from 'next/image'
 
 export default function Page() {
   return (
@@ -20,11 +20,14 @@ export default function Page() {
           {/* Left side - Image/Avatar */}
           <div className="flex justify-center">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={myImage.src}
-              alt="Abhijit Gadhave"
-              className="w-88 h-78 rounded-full border-4 border-purple-500 shadow-lg hover:scale-105 transition"
-            />
+            <div className="relative w-88 h-78">
+              <Image
+                src="/Images/Profile/myimage3.jpg"
+                alt="Abhijit Gadhave"
+                fill
+                className="rounded-full border-4 border-purple-500 shadow-lg hover:scale-105 transition object-cover"
+              />
+            </div>
           </div>
 
           {/* Right side - Bio + Skills */}

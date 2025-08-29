@@ -4,7 +4,6 @@ import './globals.css'
 import { ThemeProvider } from "next-themes"
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
-import logo from './public/Logo/logo.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
     title: 'Abhijit Gadhave — Portfolio',
     description: 'Software Engineer • Web • DSA',
-    icons: { icon: logo.src },
+    icons: { icon: '/logo/logo.png' },
 }
 
 

@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import myImage from "../public/Images/Profile/myimage4.jpg";
 import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 export default function Hero() {
@@ -78,7 +77,7 @@ export default function Hero() {
           <div className="relative w-72 h-72 md:w-80 md:h-80">
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500 to-purple-600 blur-3xl opacity-30 animate-pulse" />
             <Image
-              src={myImage}
+              src='/Images/Profile/myimage4.jpg'
               alt="Profile Picture"
               fill
               className="relative rounded-full shadow-2xl border-4 border-white dark:border-gray-800"

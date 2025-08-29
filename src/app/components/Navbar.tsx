@@ -1,7 +1,6 @@
 'use client'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import logo1 from "../public/Images/Profile/myimage1.jpeg"
 
 
 const links = [
@@ -21,7 +20,7 @@ const [open, setOpen] = useState(false)
             <div className="container flex h-16 items-center justify-between">
                 <a href="#" className="flex items-center gap-3">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={logo1.src} alt="AG" className="h-8 w-8 rounded-xl" />
+                    <img src='/Images/Profile/myimage1.jpeg' alt="AG" className="h-8 w-8 rounded-xl" />
                     <span className="font-semibold">Abhijit Gadhave</span>
                 </a>
 

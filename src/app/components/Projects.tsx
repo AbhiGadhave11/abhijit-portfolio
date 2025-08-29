@@ -2,10 +2,6 @@
 import Section from "./Section";
 import Image from "next/image";
 import { motion, Variants } from "framer-motion";
-import personaai  from "../public/Images/Project/persona-ai_resized.png"
-import portfolio from "../public/Images/Project/portfolio_resized.png"
-import courseRegi from "../public/Images/Project/project3.png"
-import pythonScript from "../public/Images/Project/project2.png"
 
 type Project = {
   title: string,
@@ -19,28 +15,28 @@ const projects = [
     title: "Persona AI",
     description:
       "Custom-built chatbot using React.js Node.js, Express.js, OpenAI API.",
-    image: personaai.src, 
+    image: '/Images/Project/persona-ai_resized.png', 
     link: "https://persona-ai-ro5l.onrender.com/",
   },
   {
     title: "Portfolio Website",
     description:
       "Personal portfolio built with Next.js, Tailwind, and Framer Motion for animations.",
-    image: portfolio.src,
+    image: '/Images/Project/portfolio_resized.png',
     link: "https://github.com/abhijit/portfolio",
   },
   {
     title: "Course Registration System",
     description:
       "Developed a course management system using Node.js and MySQL, enabling students to enroll in tuition courses with backend data handling.",
-    image: courseRegi.src,
+    image: '/Images/Project/project3.png',
     link: "https://github.com/AbhiGadhave11/Course-Registration-System",
   },
   {
     title: "Process Monitor Automation",
     description:
       "Built Python automation scripts (procedural) to list and monitor all active system processes.",
-    image: pythonScript.src,
+    image: '/Images/Project/project2.png',
     link: "https://github.com/AbhiGadhave11/Process_Monitor_Automation_Script",
   },
 ];
