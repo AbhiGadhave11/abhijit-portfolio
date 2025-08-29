@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import logo1 from "@/app/public/Images/Profile/myimage1.jpeg"
+import logo1 from "../public/Images/Profile/myimage1.jpeg"
 
 
 const links = [

@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import myImage from "@/app/public/Images/Profile/myimage4.jpg";
+import myImage from "../public/Images/Profile/myimage4.jpg";
 import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 export default function Hero() {

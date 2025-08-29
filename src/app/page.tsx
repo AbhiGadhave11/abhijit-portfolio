@@ -5,7 +5,7 @@ import Projects from '@/app/components/Projects'
 import Education from '@/app/components/Education'
 import Contact from '@/app/components/Contact'
 import Section from '@/app/components/Section'
-import myImage from "@/app/public/Images/Profile/myimage3.jpg";
+import myImage from "./public/Images/Profile/myimage3.jpg";
 import Blog from './components/Blog'
 
 export default function Page() {

@@ -2,10 +2,10 @@
 import Section from "./Section";
 import Image from "next/image";
 import { motion, Variants } from "framer-motion";
-import personaai  from "@/app/public/Images/Project/persona-ai_resized.png"
-import portfolio from "@/app/public/Images/Project/portfolio_resized.png"
-import courseRegi from "@/app/public/Images/Project/project3.png"
-import pythonScript from "@/app/public/Images/Project/project2.png"
+import personaai  from "../public/Images/Project/persona-ai_resized.png"
+import portfolio from "../public/Images/Project/portfolio_resized.png"
+import courseRegi from "../public/Images/Project/project3.png"
+import pythonScript from "../public/Images/Project/project2.png"
 
 type Project = {
   title: string,

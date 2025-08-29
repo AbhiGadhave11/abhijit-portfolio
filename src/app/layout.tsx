@@ -4,7 +4,7 @@ import './globals.css'
 import { ThemeProvider } from "next-themes"
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
-import logo from '@/app/public/Logo/logo.png'
+import logo from './public/Logo/logo.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
