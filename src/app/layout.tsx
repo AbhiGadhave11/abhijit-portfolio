@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
     title: 'Abhijit Gadhave — Portfolio',
     description: 'Software Engineer • Web • DSA',
-    icons: { icon: '/logo/logo.png' },
+    icons: { icon: '/Logo/logo.png' },
 }
 
 
