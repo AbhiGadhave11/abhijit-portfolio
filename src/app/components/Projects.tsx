@@ -12,6 +12,13 @@ type Project = {
 
 const projects = [
   {
+    title: "RAG Studio",
+    description:
+      "AI-powered Retrieval-Augmented Generation (RAG) app built with Next.js, Qdrant, Upstash Redis, and OpenAI for context-aware responses.",
+    image: "/Images/Project/rag-project-resized.png",
+    link: "https://github.com/abhijit/rag-studio",
+  },
+  {
     title: "Persona AI",
     description:
       "Custom-built chatbot using React.js Node.js, Express.js, OpenAI API.",

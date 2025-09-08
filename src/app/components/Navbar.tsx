@@ -9,6 +9,7 @@ const links = [
     { href: '#projects', label: 'Projects' },
     { href: '#education', label: 'Education' },
     { href: '#contact', label: 'Contact' },
+    // { href: 'https://drive.google.com/file/d/10eNKH1oFbunhBwpM_E2hgs3R28eW7__J/view?usp=sharing', label: 'Resume' }
 ]
 
 
@@ -30,7 +31,7 @@ const [open, setOpen] = useState(false)
                         {l.label}
                     </a>
                     ))}
-                    <a href="https://drive.google.com/file/d/10eNKH1oFbunhBwpM_E2hgs3R28eW7__J/view?usp=sharing" target="_blank" className="btn">Resume</a>
+                    <a href="https://drive.google.com/file/d/10eNKH1oFbunhBwpM_E2hgs3R28eW7__J/view?usp=sharing" target="_blank" className="btn text-slate-300 hover:text-white">Resume</a>
                 </nav>
 
 

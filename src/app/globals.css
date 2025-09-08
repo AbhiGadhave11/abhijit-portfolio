@@ -76,7 +76,7 @@ body {
 
 .btn:hover {
   background: var(--brand);
-  color: #0f172a; /* slate-900 */
+  color: #c8ccd4; /* slate-900 */
 }
 
 .badge {
