@@ -9,7 +9,6 @@ const links = [
     { href: '#projects', label: 'Projects' },
     { href: '#education', label: 'Education' },
     { href: '#contact', label: 'Contact' },
-    // { href: 'https://drive.google.com/file/d/10eNKH1oFbunhBwpM_E2hgs3R28eW7__J/view?usp=sharing', label: 'Resume' }
 ]
 
 

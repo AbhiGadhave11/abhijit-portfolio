@@ -22,7 +22,7 @@ export default function Page() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <div className="relative w-88 h-78">
               <Image
-                src="/Images/Profile/Myimage3.jpg"
+                src="/Images/Profile/Myimage3_quality.png"
                 alt="Abhijit Gadhave"
                 fill
                 className="rounded-full border-4 border-purple-500 shadow-lg hover:scale-105 transition object-cover"
